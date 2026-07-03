@@ -24,7 +24,11 @@
   "homepage": "https://github.com/sham-jadhav03/Saas-Backend#readme",
   "dependencies": {
     "dotenv": "^17.4.2",
-    "express": "^5.2.1"
+    "express": "^5.2.1",
+    "mongoose": "^9.7.3",
+    "pino": "^10.3.1",
+    "pino-http": "^11.0.0",
+    "zod": "^4.4.3"
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",
@@ -32,6 +36,7 @@
     "@types/node": "^26.1.0",
     "eslint": "^10.6.0",
     "eslint-config-prettier": "^10.1.8",
+    "pino-pretty": "^13.1.3",
     "prettier": "^3.9.4",
     "tsx": "^4.22.5",
     "typescript": "^6.0.3",
